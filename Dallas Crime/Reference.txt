@@ -1,1 +1,5 @@
 Data: https://github.com/PhaniBalagam27/Big-data-Analytics-on-dallas-police-incidents-dataset
+Python Pandas: https://github.com/guipsamora/pandas_exercises/blob/master/02_Filtering_%26_Sorting/Chipotle/Exercises_with_solutions.ipynb
+
+Visulization: https://blog.modeanalytics.com/python-data-visualization-libraries/
+Map: https://gist.github.com/dannguyen/eb1c4e70565d8cb82d63
