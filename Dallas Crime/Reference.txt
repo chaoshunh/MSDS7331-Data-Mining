@@ -1,5 +1,11 @@
 Data: https://github.com/PhaniBalagam27/Big-data-Analytics-on-dallas-police-incidents-dataset
+
 Python Pandas: https://github.com/guipsamora/pandas_exercises/blob/master/02_Filtering_%26_Sorting/Chipotle/Exercises_with_solutions.ipynb
 
 Visulization: https://blog.modeanalytics.com/python-data-visualization-libraries/
+
 Map: https://gist.github.com/dannguyen/eb1c4e70565d8cb82d63
+
+Huston City Crime Analysis: http://www.houstontx.gov/police/cs/beatpages/beat_stats.htm
+
+http://www.slate.com/articles/news_and_politics/crime/2016/03/calls_for_service_data_are_the_best_way_to_analyze_crime_why_don_t_cities.html
