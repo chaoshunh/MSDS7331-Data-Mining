@@ -1,0 +1,46 @@
+
+Attribute|Data Type|Description|%missing    
+:--------- | :----------------- | :-------------               | :---------
+<p align="left">Service_Number_ID</p>|Norminal|<p align="left">Incident number plus year code plus offense number (Ex: -02 means there is two offense with this one incident) Internal use</p>|0.00
+<p align="left">Watch</p>|Norminal|<p align="left">Police watch 1st 2nd or 3rd (1st watch = Late Night, 2nd watch = Days and 3rd watch = Evenings)</p>|0.00
+<p align="left">Type_of_Incident</p>|Norminal|<p align="left">Type of Incident</p>|0.00
+<p align="left">Type_Location</p>|Norminal|<p align="left">Location type where incident took place For example, Apartment Parking, Residence</p>|2.67
+<p align="left">Reporting Area</p>|Norminal|<p align="left">Geographic area comprised of reporting areas where incident occurred</p>|0.12
+<p align="left">Beat</p>|Norminal|<p align="left">Geographic area comprised of beats where incident occurred ( the city broken down for patrol and statistical purposes)</p>|0.05
+<p align="left">Division</p>|Norminal|<p align="left">Geographic area comprised of census blocks where incident occurred (smallest police geography)</p>|0.05
+<p align="left">Sector</p>|Norminal|<p align="left">Geographic area comprised of Sectors where incident occurred</p>|0.04
+<p align="left">Council_District</p>|Norminal|<p align="left">Geographic area comprised of city council districts where incident occurred</p>|0.43
+<p align="left">Date1_of_Occurrence</p>|Interval|<p align="left">The first date of the date occurrence of the incident (Ex: incident occurred between 1/1/2016 and 1/2/2016)</p>|0.00
+<p align="left">Day1_of_the_Week</p>|Interval|<p align="left">Day of the indent based on the Date of Occurrence (Date1). Internal use</p>|0.00
+<p align="left">Time1_of_Occurrence</p>|Interval|<p align="left">The first (starting) time of the time occurrence of the incident (Ex: incident occurred between 8:00am and 5:00pm)</p>|0.00
+<p align="left">Date2_of_Occurrence</p>|Interval|<p align="left">The second date of the date occurrence of the incident (Ex: incident occurred between 1/1/2016 and 1/2/2016)</p>|0.00
+<p align="left">Day2_of_the_Week</p>|Interval|<p align="left">Day of the indent based on the Date of Occurrence (Date2)</p>|0.00
+<p align="left">Time2_of_Occurrence</p>|Interval|<p align="left">The second(end) time of the time occurrence of the incident (Ex: incident occurred between 8:00am and 5:00pm)</p>|0.00
+<p align="left">Call_Received_Date_Time</p>|Interval|<p align="left">The date the related call was received</p>|0.40
+<p align="left">Call_Date_Time</p>|Interval|<p align="left">Date and time of the related call</p>|0.40
+<p align="left">Call_Cleared_Date_Time</p>|Interval|<p align="left">Date and time related call was cleared</p>|0.47
+<p align="left">Call_Dispatch_Date_Time</p>|Interval|<p align="left">Date and time related call was dispatched</p>|0.41
+<p align="left">Person_Involvement_Type</p>|Norminal|<p align="left">Person can be; 'Victim', 'Registered Owner', 'Owner', nan,'Passenger', 'Driver','Reporting Person', 'Witness', 'Victim/RP'</p>|3.46
+<p align="left">Victim_Type</p>|Norminal|<p align="left">Victim Type</p>|5.22
+<p align="left">Victim_Race</p>|Norminal|<p align="left">Race</p>|34.53
+<p align="left">Victim_Ethnicity</p>|Norminal|<p align="left">Victim Ethnicity</p>|35.13
+<p align="left">Victim_Gender</p>|Norminal|<p align="left">Victim Gender</p>|34.50
+<p align="left">Victim_Age</p>|Ratio|<p align="left">Victim Age</p>|38.01
+<p align="left">Victim_Age_at_Offense</p>|Ratio|<p align="left">Victim Age at Offense</p>|38.74
+<p align="left">Victim_Zip_Code</p>|Norminal|<p align="left">Victim Zip Code</p>|7.96
+<p align="left">Victim_City</p>|Norminal|<p align="left">Victim City</p>|6.46
+<p align="left">Victim_State</p>|Norminal|<p align="left">Victim State</p>|7.53
+<p align="left">Offense_Status</p>|Norminal|<p align="left">Status of the offense. Values: 'Suspended', 'Clear by Arrest', 'Clear by Exceptional Arrest','Open', 'Closed/Cleared', nan, 'SW', 'D','Returned for Correction', 'CL',W'</p>|2.03
+<p align="left">UCR_Disposition</p>|Norminal|<p align="left">UCR Disposition of the incident</p>|2.01
+<p align="left">Family_Offense</p>|Interval|<p align="left">Yes or no if the offense is family violence</p>|0.02
+<p align="left">Hate_Crime</p>|Interval|<p align="left">Yes or no if offense is a hate crime</p>|99.88
+<p align="left">Weapon_Used</p>|Interval|<p align="left">Weapon Used</p>|15.78
+<p align="left">Gang_Related_Offense</p>|Interval|<p align="left">Yes or no if offense is gang realated</p>|15.67
+<p align="left">Drug_Related_Istevencident</p>|Interval|<p align="left">Yes or no if incident is drug related</p>|0.03
+<p align="left">RMS_Code</p>|Norminal|<p align="left">UCR Offense code</p>|0.00
+<p align="left">UCR_Code</p>|Norminal|<p align="left">UCR Code</p>|8.87
+<p align="left">X_Coordinate</p>|Interval|<p align="left">X Coordinate</p>|10.98
+<p align="left">Y_Cordinate</p>|Interval|<p align="left">Y Cordinate</p>|10.98
+<p align="left">Zip_Code</p>|Norminal|<p align="left">Zipcode in which incident occured</p>|0.74
+<p align="left">City</p>|Norminal|<p align="left">City in which incident occurred</p>|1.04
+<p align="left">Location1</p>|Norminal|<p align="left">Incident Location has X cordinate and Y cordinate</p>|0.71
